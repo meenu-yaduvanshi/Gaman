@@ -1,8 +1,8 @@
 import { useState } from 'react'
 import './App.css'
-import Nav from "./Components/Nav"
-import MainContent from './Components/MainContent'
-import Footer from "./Components/Footer"
+import Nav from "./components/Nav"
+import MainContent from './components/MainContent'
+import Footer from "./components/Footer"
 
 const App =()=> {
  
