@@ -1,0 +1,58 @@
+.container {
+    background-color: rgb(176, 76, 61);
+    padding: 30px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+    width: 100%;
+    border: 1px solid black;
+    height: 450px;
+    border-radius: 10%;
+    aspect-ratio: 1;
+    background: linear-gradient(135deg, #f36c51, #f36c51, #f36c51, #f36c51, #ca485c, #e16b5c, #f39060, #ffb56b);
+    --m:
+        conic-gradient(from -45deg at bottom, #0000, #000 1deg 109deg, #0000 90deg) bottom/80px 51% repeat-x,
+        conic-gradient(from 135deg at top, #0000, #000 1deg 109deg, #0000 90deg) top /80px 51% repeat-x;
+    -webkit-mask: var(--m);
+    mask: var(--m);
+}
+
+.card {
+    /* display: flex; */
+    width: 100%;
+    /* justify-content: center; */
+    border: 1px solid black;
+    box-shadow: 0 2px 4px rgba(164, 56, 56, 0.1);
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;   
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.left img {
+    max-width: 95%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.right {
+   
+    width: 50%;
+   
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.right p {
+    font-size: 20px;
+}

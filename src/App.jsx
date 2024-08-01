@@ -1,13 +1,16 @@
 import './App.css'
 import Nav from "./Components/Nav"
-import MainContent from './Components/MainContent'
+import Card from "./Components/Card"
 import Footer from "./Components/Footer"
+import Slideshow from './Components/Slideshow'
 
-const App = () => {
-
+const App =()=> {
+ 
   return (
     <>
-      <Home />
+      <Nav/>
+      <MainContent/>
+      <Footer/>
     </>
   )
 }
