@@ -1,16 +1,13 @@
-import { useState } from 'react'
 import './App.css'
-import Nav from "./components/Nav"
-import MainContent from './components/MainContent'
-import Footer from "./components/Footer"
+import Nav from "./Components/Nav"
+import MainContent from './Components/MainContent'
+import Footer from "./Components/Footer"
 
-const App =()=> {
- 
+const App = () => {
+
   return (
     <>
-      <Nav/>
-      <MainContent/>
-      <Footer/>
+      <Home />
     </>
   )
 }
