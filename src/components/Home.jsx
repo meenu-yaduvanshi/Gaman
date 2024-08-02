@@ -1,7 +1,11 @@
-import Nav from "./Nav"
-import Crousel from "./Crousel";
-import AnimationText from "./AnimationText";
-import TripPlanForm from "./TripPlanForm";
+import React from 'react';
+import Nav from './Nav';
+import Crousel from './Crousel'; // Ensure this matches the file name
+import AnimationText from './AnimationText';
+import Card from './Card';
+import TripPlanForm from './TripPlanForm';
+import Footer from './Footer';
+import Slideshow from './Slideshow';
 
 const Home = () => {
   return (
@@ -13,8 +17,11 @@ const Home = () => {
       </div>
       <AnimationText />
       <TripPlanForm />
+      <Card />
+      <Slideshow />
+      <Footer />
     </>
-  )
+  );
 }
 
 export default Home;

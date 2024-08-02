@@ -1,18 +1,13 @@
-import './App.css'
-import Nav from "./Components/Nav"
-import Card from "./Components/Card"
-import Footer from "./Components/Footer"
-import Slideshow from './Components/Slideshow'
+import React from 'react';
+import './App.css';
+import Home from './Components/Home';
 
-const App =()=> {
- 
+const App = () => {
   return (
     <>
-      <Nav/>
-      <MainContent/>
-      <Footer/>
+      <Home />
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
