@@ -44,15 +44,15 @@ const Crousel = () => {
   };
 
   return (
-    <Box 
-      sx={{ 
-        width: '100%', 
-        mt: 2, 
-        '& .slick-slide img': { 
-          width: '100%', 
+    <Box
+      sx={{
+        width: '100%',
+        mt: 2,
+        '& .slick-slide img': {
+          width: '100%',
           height: { xs: '200px', md: '400px' }, // Responsive height
-          objectFit: 'cover' 
-        } 
+          objectFit: 'cover'
+        }
       }}
     >
       <Slider {...settings}>
