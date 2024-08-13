@@ -2,7 +2,7 @@ import React from "react";
 // import Nav from './components/Nav';
 import DatamapsIndia from "react-datamaps-india";
 import '../style/discover.css'
-import SlideShow from "./Slideshow";
+import SlideShow from './SlideShow';
 
 
 

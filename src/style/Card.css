@@ -1,37 +1,35 @@
-.container {
-    background-color: rgb(176, 76, 61);
-    padding: 30px;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-    width: 100%;
-    border: 1px solid black;
-    height: 450px;
-    border-radius: 10%;
-    aspect-ratio: 1;
-    background: linear-gradient(135deg, #f36c51, #f36c51, #f36c51, #f36c51, #ca485c, #e16b5c, #f39060, #ffb56b);
-    --m:
-        conic-gradient(from -45deg at bottom, #0000, #000 1deg 109deg, #0000 90deg) bottom/80px 51% repeat-x,
-        conic-gradient(from 135deg at top, #0000, #000 1deg 109deg, #0000 90deg) top /80px 51% repeat-x;
-    -webkit-mask: var(--m);
-    mask: var(--m);
-}
-
-.card {
-    /* display: flex; */
-    width: 100%;
-    /* justify-content: center; */
-    border: 1px solid black;
-    box-shadow: 0 2px 4px rgba(164, 56, 56, 0.1);
-}
-
-.left {
+.card-container {
+    background-color: rgb(249, 199, 223);
+    padding: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 50%;   
+    width: 90%;
+    /* border: 1px solid rgb(231, 246, 17); */
+    border-radius: 40px;
+}
+.card {
+    width: 90%;
+    height: 400px;
+    /* border: 1px solid black; */
+    box-shadow: 0 2px 4px rgba(164, 56, 56, 0.1);
+    display: flex;
+    flex-direction: column;
+    /* Stack items on top of each other by default */
+    align-items: center;
+    /* Center content */
+    justify-content: center;
+    /* Center content */
+}
+.card img{
+    margin-top: 18%;
+}
+
+
+.left {
+    width: 100%;
     border-radius: 10px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .left img {
@@ -41,9 +39,7 @@
 }
 
 .right {
-   
-    width: 50%;
-   
+    width: 100%;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
@@ -55,4 +51,29 @@
 
 .right p {
     font-size: 20px;
+}
+
+/* Responsive layout for larger screens */
+@media (min-width: 764px) {
+    .card {
+        flex-direction: row;
+        /* Side by side on larger screens */
+    }
+
+    .left,
+    .right {
+        width: 50%;
+    }
+}
+
+/* Additional media query for very small screens */
+@media (max-width: 480px) {
+    .container {
+        padding: 15px;
+    }
+
+    .right p {
+        font-size: 16px;
+        /* Smaller text on very small screens */
+    }
 }

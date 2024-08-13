@@ -40,11 +40,36 @@
 .heading{
   padding: 15px;
   text-align: center;
-  margin-top: 4.5%;
+  margin-top: 9%;
   border: 4px solid purple;
   border-radius: 50%;
   width: 80%;
   margin-bottom: 40px;
-  font-size: 3rem;
+  font-size: 2rem;
+}
+@media (min-width: 764px) {
+  .heading{
+    padding: 15px;
+    text-align: center;
+    margin-top: 4.5%;
+    border: 4px solid purple;
+    border-radius: 50%;
+    width: 80%;
+    margin-bottom: 40px;
+    font-size: 3rem;
+  }
+}
 
+
+
+.trip-plan-form-box{
+  width: 95%;
+  /* border: 2px solid black; */
+ margin: auto;
+ border-radius: 30px;
+ margin-top: 5%;
+}
+.trip-plan-form-box img{
+  width: 100%;
+  border-radius: 30px;
 }

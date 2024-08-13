@@ -35,7 +35,7 @@ const ScrollContainer = styled('div')(({ theme }) => ({
   boxSizing: 'border-box',
   position: 'relative',
   clipPath: zigzagPath,
-  padding: '8px',
+  padding: '2%',
   marginBottom: '13px'
 }));
 
