@@ -1,31 +1,18 @@
-/* slide.css */
-.container {
-  position: relative;
-  width: 100%;
-  max-width: 600px; /* Adjust as needed */
-  margin: auto;
+.main-container{
+  display: flex;
 }
-
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 24px;
-  transition: background-color 0.3s ease;
-  user-select: none;
+.image-container{
+  display: flex;
+ gap: 20px;
+ /* justify-content: center;
+ align-items: center; */
 }
-
-.prev {
-  left: 0;
+.image-container div{
+  border: 2px solid black;
+ 
+  /* width: 30%; */
+  height: 500px;
 }
-
-.next {
-  right: 0;
-}
-
-.prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.5);
+.second-image-box{
+  width: 90%;
 }

@@ -30,11 +30,13 @@ const ScrollContainer = styled('div')(({ theme }) => ({
   overflow: 'hidden',
   whiteSpace: 'nowrap',
   width: '100%',
-  backgroundColor: 'green',
+  backgroundColor: 'skyblue',
   backgroundSize: '100px 100px',
   boxSizing: 'border-box',
   position: 'relative',
   clipPath: zigzagPath,
+  padding: '8px',
+  marginBottom: '13px'
 }));
 
 // Style the scrolling text with wave animation
@@ -52,7 +54,7 @@ const WaveText = styled('span')(({ theme }) => ({
 
 // Main AnimationText component
 const AnimationText = () => {
-  const text = "Hello, World! fyufyuyuf uguituir yuryuryukryu ryurkyu ryu ryury! ";
+  const text = "Hello, Miss World! fyufyuyuf uguituir  yuryuryukryu  ryurkyu ryu ryury! ";
 
   return (
     <ScrollContainer>

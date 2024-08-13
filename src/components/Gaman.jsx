@@ -9,8 +9,10 @@ const Gaman = () => {
   return (
     <div>
       <Crousel />
+      <div className='main-div'>
         <div className='heading'>
           A line About Gaman
+        </div>
         </div>
         <AnimationText />
         {/* <TripPlanForm /> */}
