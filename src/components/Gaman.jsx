@@ -4,7 +4,7 @@ import Crousel from "./Crousel";
 import '.././App.css'
 import AnimationText from './AnimationText';
 import ReviewSlideshow from './ReviewSlideshow'
-// import SlideShow from './SlideShow';
+
 const Gaman = () => {
   
   const slides = [
