@@ -1,5 +1,5 @@
 /* src/App.css */
-
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
 .mobile-menu {
   display: none; /* This will ensure the mobile menu is hidden by default */
 }
@@ -20,6 +20,36 @@
   justify-content: center;
   flex-grow: 1; /* Center the content and allow space around it */
 }
+.a-line-about-gaman{
+  min-height: 400px;
+  width: 53%;
+  display: block;
+  margin: auto;
+}
+.a-line-about-gaman h3{
+  text-align: center;
+  font-size: 3em;
+  font-family: "Karla", SemiBold;
+  color: #E04926;
+}
+.a-line-about-gaman p{
+  text-align: center;
+  font-size: 3rem;
+  font-family: "Karla", Medium;
+  color: #7A7F42;
+  
+}
+
+.a-line-about-gaman p span{
+  color: #E04926;
+  font-family: "Karla", Medium Italic;
+}
+#a-line-about-gaman-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
 
 /* Media query to show mobile menu on small screens */
 @media (max-width: 768px) {

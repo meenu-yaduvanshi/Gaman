@@ -46,27 +46,28 @@ const Crousel = () => {
   return (
     <Box
       sx={{
-        width: '100%',
-        mt: 2,
+        width: '90%',
+        display: 'block',
+        m: 'auto',
         '& .slick-slide img': {
           width: '100%',
-          height: { xs: '200px', md: '400px' }, // Responsive height
+          height: { xs: '650px', md: '650px' }, // Responsive height
           objectFit: 'cover'
         }
       }}
     >
       <Slider {...settings}>
         <div>
-          <img src="https://media.istockphoto.com/id/904172104/photo/weve-made-it-all-this-way-i-am-proud.jpg?s=612x612&w=0&k=20&c=MewnsAhbeGRcMBN9_ZKhThmqPK6c8nCT8XYk5ZM_hdg=" alt="Slide 1" />
+          <img src="../src/assets/firstCrouselImg.jpg" alt="Slide 1" />
         </div>
         <div>
-          <img src="https://t4.ftcdn.net/jpg/00/65/48/25/360_F_65482539_C0ZozE5gUjCafz7Xq98WB4dW6LAhqKfs.jpg" alt="Slide 2" />
+          <img src="../src/assets/secondCrouselImg.jpg" alt="Slide 2" />
         </div>
         <div>
-          <img src="https://media.istockphoto.com/id/904172104/photo/weve-made-it-all-this-way-i-am-proud.jpg?s=612x612&w=0&k=20&c=MewnsAhbeGRcMBN9_ZKhThmqPK6c8nCT8XYk5ZM_hdg=" alt="Slide 3" />
+          <img src="../src/assets/thridCrouselImg.jpg" alt="Slide 3" />
         </div>
         <div>
-          <img src="https://t4.ftcdn.net/jpg/00/65/48/25/360_F_65482539_C0ZozE5gUjCafz7Xq98WB4dW6LAhqKfs.jpg" alt="Slide 4" />
+          <img src="../src/assets/fourthCrouselImg.jpg" alt="Slide 4" />
         </div>
       </Slider>
     </Box>

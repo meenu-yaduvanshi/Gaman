@@ -9,7 +9,7 @@ import { styled } from '@mui/material/styles';
 
 const StyledLink = styled(Link)({
   textDecoration: 'none',
-  color: 'inherit',
+  color: '#7A7F42',
 });
 
 const Nav = () => {
@@ -75,7 +75,7 @@ const Nav = () => {
           {/* Center */}
           <div className="nav-center">
             <StyledLink to="/">
-              <Button color="inherit">Gaman</Button>
+              <Button color="inherit"><img src="../src/assets/gamanLogoBlue.png" alt="" /></Button>
             </StyledLink>
           </div>
 
