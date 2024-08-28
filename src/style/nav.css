@@ -1,0 +1,137 @@
+.nav-div {
+    display: none;
+    height: 80px;
+    /* background-color: palegoldenrod; */
+
+}
+
+.gaman-logo-image {
+    /* width: 17%; */
+    max-height: 75px;
+    margin-top: 37px;
+
+}
+
+/* Basic styling */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f5f5;
+    color: rgb(189, 29, 29);
+}
+
+.nav-container .logo img {
+    width: 100px;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #7A7F42;
+    font-size: 28px;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger .bar {
+    width: 25px;
+    height: 3px;
+    background-color: rgb(17, 16, 16);
+    margin: 4px 0;
+    transition: all 0.3s ease;
+}
+
+.zoom {
+    background-color: white;
+    transition: transform .2s;
+    padding: 20px;
+   /* border: 1px solid black; */
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.5);
+    /* IE 9 */
+    -webkit-transform: scale(1.5);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        left: 0;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 15px 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+}
+
+@media (min-width:764px) {
+    .nav-container {
+        display: none;
+    }
+
+    .nav-div {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* background-color: palegoldenrod; */
+        color: #7A7F42;
+    }
+
+    .nav-div a {
+        color: #7A7F42;
+        font-family: "karla", SemiBold;
+        font-weight: 600;
+        text-decoration: none;
+        font-size: 32px;
+
+    }
+
+    .nav-div button {
+        background-color: white;
+        border: none;
+        transition: transform .2s;
+        margin-top: 30px;
+    }
+
+    .nav-div button :hover {
+        background-color: whitesmoke;
+        transform: scale(1.5);
+
+    }
+}
