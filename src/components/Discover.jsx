@@ -57,15 +57,13 @@ const Discover = () => {
             );
           }}
           mapLayout={{
-            startColor: "#FFDAB9",
-            endColor: "#FF6347",
-            hoverTitle: "Count",
-            noDataColor: "#f5f5f5",
-            borderColor: "#8D8D8D",
-            hoverBorderColor: "#8D8D8D",
+            // startColor: "#FFDAB9",
+            // endColor: "#FF6347",
+            // hoverTitle: "Count",
+            // noDataColor: "#f5f5f5",
+            // borderColor: "#8D8D8D",
+            // hoverBorderColor: "#8D8D8D",
             hoverColor: "green",
-            height: 70,
-            weight: 30
           }}
         />
       <SlideShow />
