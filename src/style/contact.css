@@ -1,0 +1,110 @@
+form {
+    padding: 20px;
+  }
+  
+  input, textarea {
+    margin-bottom: 16px;
+  }
+  .form-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 20px;
+}
+img{
+    width: 100%;
+    height: 300px;
+    margin-top: 2rem;
+}
+.contact-form,
+.contact-info {
+    flex: 1;
+    max-width: 600px; /* Adjust as needed */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.contact-info .info-box i {
+    background-color: #fff; /* Set background color to white */
+    color: #003366; /* Set icon color to dark blue */
+    border-radius: 50%; /* Optional: Make icon background circular */
+    padding: 10px; /* Optional: Add padding for better appearance */
+    margin-right: 8px;
+    font-size: 18px; /* Adjust font size as needed */
+}
+
+.contact-form {
+    background-color: #fff;
+}
+
+.contact-info {
+    background-color: #003366;
+    color: #fff;
+}
+
+.contact-form h2,
+.contact-info h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: calc(100% - 20px); /* Adjust for padding */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensure padding is included in width */
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #e8491d;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.contact-form button:hover {
+    background-color: #d4381a;
+}
+
+.contact-info .info-box p {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.contact-info .info-box strong {
+    font-weight: bold;
+    color: #dfdf07;
+}
+
+.info-box i {
+    margin-right: 8px;
+}
+
+@media only screen and (min-width: 769px) {
+    .contact-container {
+        flex-direction: row;
+        align-items: stretch; /* Ensure equal height */
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .contact-info .info-box p {
+         font-size:10px ;
+    }
+    .contact-info .info-box i {
+        background-color: #fff;
+        color: #003366;
+        border-radius: 50%;
+        padding: 8px;
+        margin-right: 6px;
+        font-size: 10px;
+    }
+}

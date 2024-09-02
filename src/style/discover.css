@@ -1,3 +1,10 @@
-.map{
-    position: static;
+svg{
+    border: 1px solid red;
+    margin-top: 50px;
+    position: relative !important;
+}
+
+.css-i4bv87-MuiSvgIcon-root{
+    border: none;
+    margin-top: 0%;
 }
