@@ -81,27 +81,30 @@ function Carousel() {
                   src={step.imgPath}
                   alt={step.label}
                 />
-                <Typography
-                  variant="body2"
-                  sx={{
-                    position: 'absolute',
-                    bottom: '40px',
-                    right: '43px',
-                    backgroundColor: 'rgb(245, 245, 245)',
-                    color: '#28397D',
-                    padding: '5px 10px',
-                    borderRadius: '5px',
-                    fontSize: '20px',
-                    '@media (max-width: 760px)': {
-                      fontSize: '0.75rem',
-                      bottom: '10px',
-                      right: '10px',
-                      padding: '2px 5px',
-                    },
-                  }}
-                >
-                  {step.label}
-                </Typography>
+                <div className='image-text'>
+                  <Typography
+                    variant="body2"
+                    sx={{
+                      position: 'absolute',
+                      bottom: '38px',
+                      right: '45px',
+                      backgroundColor: 'rgb(245, 245, 245)',
+                      color: '#28397D',
+                      padding: '5px 10px',
+                      borderRadius: '5px',
+                      fontSize: '20px',
+                      '@media (max-width: 760px)': {
+                        fontSize: '0.75rem',
+                        bottom: '10px',
+                        right: '10px',
+                        padding: '2px 5px',
+                        textAlign: 'center',
+                      },
+                    }}
+                  >
+                    {step.label}
+                  </Typography>
+                </div>
               </>
             ) : null}
           </Box>
