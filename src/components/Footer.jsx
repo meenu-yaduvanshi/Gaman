@@ -17,7 +17,8 @@ const Footer = () => {
                 </div>
             </div>
             <p className="footer-paragraph">
-                Designed by Udyami Tech, a web development company led by young rural women, pushing boundaries in the tech world, code after code
+                Designed by Udyami Tech, a web development company led by young rural women, 
+                who's innovative approach and dedication is push technological boundaries with every line of code.
             </p>
         </div>
     );

@@ -1,6 +1,6 @@
 .footer-main-container {
    background-color: rgb(245, 245, 245);
-   padding: 20px;
+   /* padding: 20px; */
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -80,12 +80,14 @@
 
 .footer-paragraph {
    font-family: "Karla", Light;
-   font-size: 1.3rem;
+   font-size: 1.2rem;
    color: #28397D;
-   margin-top: 20px;
-   border-top: 1px solid #ddd;
-   padding-top: 10px;
-   animation: slide-left 15s linear infinite;
+ margin-top: 50px;
+   /* padding-top: 10px; */
+   width: 100%;
+   /* border-top: 1px solid #ddd; */
+   /* padding-top: 10px; */
+   /* animation: slide-left 15s linear infinite; */
 }
 
 /* @keyframes slide-left {
